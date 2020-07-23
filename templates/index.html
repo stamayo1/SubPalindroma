@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Indentificador Palindroma</title>
+
+</head>
+
+<body>
+    <h1>Subcadena Palindroma</h1>
+    </div> 
+        <form method="POST">
+          <p>Ingrese una cadena de caracteres de longitud maxima de 255, para identificar la subcadena más larga que sea palindroma</p>
+          <input type= "text" maxlength="255"   placeholder="Ejemplo: irerq464"  name="cadena" size="45" required>
+          <button type= "submit">Enviar</button>
+        </form>
+        {% if respuesta %}
+          <p>La subcadena palindroma más larga es: <strong>{{respuesta.cadena}}</strong></p> 
+        {% endif %}
+    </div>
+    
+</body>
+</html>
