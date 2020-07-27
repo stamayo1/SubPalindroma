@@ -1,8 +1,7 @@
 
 def SubPalindroma(cadena):
     
-    cadena = cadena.upper()
-    ori = cadena.replace(' ', '') 
+    ori = cadena 
     inver = ori[::-1] #Invertir la cadena original
     
     filas = len(ori) + 1 #Aumento la longitud cadena en +1, para asi llenar la martrix
@@ -46,7 +45,5 @@ def SubPalindroma(cadena):
     
     return  respuesta
  
-""" if __name__ == "__main__":
-    string = "qwer1235321fr" 
-    print(SubPalindroma(string))  """
+
 
